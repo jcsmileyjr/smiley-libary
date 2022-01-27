@@ -1,4 +1,4 @@
-module.exports =[
+var bookData =[
     "How to grill burgers",
     "How to grill chicken",
     "How to grill sausages",
@@ -6,3 +6,9 @@ module.exports =[
     "How to fry season fries",
     "How to fry chicken",
   ];
+
+let getBooks = function(){
+    return bookData;
+}
+
+module.exports.getBooks = getBooks;
